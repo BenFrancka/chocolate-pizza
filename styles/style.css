@@ -22,11 +22,72 @@ header {
     margin-right: 10px;
 }
 
-span {
+.logo-text span {
     font-family: 'Brush Script MT', cursive;
     font-size: 2.5rem;
 }
 .logo-text p{
     font-size: .6rem;
     line-height: .9;
+}
+
+ul {
+    background-image: url('../assets/list-bg.png');
+}
+
+hr {
+    width: 100%;
+}
+
+.hr-logo-hr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hr-left {
+    border-bottom: gray 1px solid;
+    width: 100px;
+    margin: 30px;
+}
+
+.hr-right {
+    border-bottom: gray 1px solid;
+    width: 100px;
+    margin: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+}
+
+
+.about img {
+    margin-right: 15px;
+}
+
+.author-text{
+    width: 70%;
+}
+
+.author-info {
+    line-height: 0.9rem;
+    font-size: 15px;
+}
+
+.author span {
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
