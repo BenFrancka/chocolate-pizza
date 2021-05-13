@@ -9,3 +9,49 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+
+## Page Layout
+
+- Header with:
+    - header div left
+        - fork and knife image on left
+        - Declicious
+            - Best food blog underneath
+    
+    - header div right
+        - facebook
+        - twitter
+        - google
+        - instagram
+        - flickr
+        - pinterest
+
+        - wifi signal
+        - email symbol
+
+        -border image on bottom on header that spans whole length
+
+        Main:
+
+        - Choclate Pizza h1
+        - Blog subheader (time posted, desserts)
+        - print image on the right
+
+        - big chocolate pizza picture
+
+        - Paragraph 1
+        - Paragraph 2
+        - Paragraph 3
+
+        - list picture background with list over the top (CSS??)
+
+        - bottom div
+            - top bar that spans whole footer
+            - author image on left
+            - author name, description in middle
+            - share recipe on right
+
+            - Footer
+                - fork an knife on bottom with line through it
+                - copyright info 
+
