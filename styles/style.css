@@ -25,14 +25,17 @@ header {
 .logo-text span {
     font-family: 'Brush Script MT', cursive;
     font-size: 2.5rem;
+    color: black;
 }
 .logo-text p{
     font-size: .6rem;
     line-height: .9;
+    color:rgb(99, 98, 98);
 }
 
 ul {
     background-image: url('../assets/list-bg.png');
+    margin-bottom: 30px;
 }
 
 hr {
@@ -90,4 +93,30 @@ footer {
 .author span {
     font-weight: bolder;
     font-size: 1.5rem;
+}
+
+.title-section {
+    margin-bottom: 10px;
+}
+
+.main-image {
+    margin-bottom: 10px;
+}
+
+.main-par {
+    margin-bottom: 25px;
+    text-indent: 2em;
+    color: rgb(99, 98, 98);
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 2.6rem;
+}
+
+h4 {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    color: darkgray;
 }
