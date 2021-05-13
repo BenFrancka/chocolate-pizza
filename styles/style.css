@@ -11,6 +11,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .left {
@@ -33,10 +34,68 @@ header {
     color:rgb(99, 98, 98);
 }
 
-ul {
-    background-image: url('../assets/list-bg.png');
-    margin-bottom: 30px;
+.main-image img {
+    width: 100%;
 }
+
+.index-card {
+    background-image: url('../assets/list-bg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+    width: 100%;
+    
+}
+
+ul {
+    
+    
+	top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    height: 400px;
+    
+}
+
+.list-columns {
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.3rem;
+    font-family: Bradley Hand itc;
+    font-weight: bold;
+    color: rgb(80, 48, 21);
+    line-height: 2.3rem;
+}
+
+.left-list {
+    
+}
+
+.right-list {
+
+}
+
+li 
+{ 
+    list-style-image: url('http://bit.ly/qunMkL'); 
+    list-style-position: inside;
+}
+li:before
+{
+    content: "\2610";
+    margin-right:5px;
+}
+
+li:hover:before
+{
+    content: "\2611";
+    margin-right:5px;
+}
+
 
 hr {
     width: 100%;
@@ -99,6 +158,10 @@ footer {
     margin-bottom: 10px;
 }
 
+main {
+    margin-top: 50px;
+}
+
 .main-image {
     margin-bottom: 10px;
 }
@@ -122,4 +185,14 @@ h4 {
     font-size: 0.9rem;
     margin-bottom: 20px;
     color: darkgray;
+}
+
+.bottom-section {
+    margin-top: 20px;
+}
+
+.hr-bottom {
+    background-image: url("../assets/hr-img.png");
+    height: 15px;
+    width: 100%;
 }
