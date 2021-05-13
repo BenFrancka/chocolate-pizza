@@ -11,6 +11,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .left {
@@ -157,6 +158,10 @@ footer {
     margin-bottom: 10px;
 }
 
+main {
+    margin-top: 50px;
+}
+
 .main-image {
     margin-bottom: 10px;
 }
@@ -180,4 +185,14 @@ h4 {
     font-size: 0.9rem;
     margin-bottom: 20px;
     color: darkgray;
+}
+
+.bottom-section {
+    margin-top: 20px;
+}
+
+.hr-bottom {
+    background-image: url("../assets/hr-img.png");
+    height: 15px;
+    width: 100%;
 }
