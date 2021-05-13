@@ -33,10 +33,54 @@ header {
     color:rgb(99, 98, 98);
 }
 
-ul {
+.index-card {
     background-image: url('../assets/list-bg.png');
-    margin-bottom: 30px;
+	background-repeat: no-repeat;
+	background-size: contain;
+    width: 100%;
+    
 }
+
+ul {
+    
+    
+	top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    height: 400px;
+    
+}
+
+.list-columns {
+    display: flex;
+}
+
+.right-list {
+
+}
+
+li 
+{ 
+    list-style-image: url('http://bit.ly/qunMkL'); 
+    list-style-position: inside;
+}
+li:before
+{
+    content: "\2610";
+    margin-right:5px;
+}
+
+li:hover:before
+{
+    content: "\2611";
+    margin-right:5px;
+}
+
 
 hr {
     width: 100%;
