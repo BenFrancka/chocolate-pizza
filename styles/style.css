@@ -18,3 +18,15 @@ header {
     
 }
 
+.logo-top {
+    margin-right: 10px;
+}
+
+span {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+}
+.logo-text p{
+    font-size: .6rem;
+    line-height: .9;
+}
