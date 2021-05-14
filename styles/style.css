@@ -94,19 +94,21 @@ hr {
 }
 
 .hr-logo-hr {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 31px 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .hr-left {
-    border-bottom: gray 1px solid;
-    width: 100px;
+    border-top: rgb(224, 224, 224) 1px solid;
+    width: 500px;
     margin: 30px;
 }
 
 .hr-right {
-    border-bottom: gray 1px solid;
-    width: 100px;
+    border-top: rgb(224, 224, 224) 1px solid;
+    width: 500px;
     margin: 30px;
 }
 
