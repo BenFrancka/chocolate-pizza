@@ -43,7 +43,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: contain;
     width: 100%;
-    
+    background-position: fixed;
 }
 
 ul {
@@ -71,14 +71,6 @@ ul {
     line-height: 2.3rem;
 }
 
-.left-list {
-    
-}
-
-.right-list {
-
-}
-
 li 
 { 
     list-style-image: url('http://bit.ly/qunMkL'); 
@@ -102,19 +94,21 @@ hr {
 }
 
 .hr-logo-hr {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 31px 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .hr-left {
-    border-bottom: gray 1px solid;
-    width: 100px;
+    border-top: rgb(224, 224, 224) 1px solid;
+    width: 500px;
     margin: 30px;
 }
 
 .hr-right {
-    border-bottom: gray 1px solid;
-    width: 100px;
+    border-top: rgb(224, 224, 224) 1px solid;
+    width: 500px;
     margin: 30px;
 }
 
@@ -124,6 +118,9 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    color: darkgray;
 }
 
 .author {
@@ -147,6 +144,7 @@ footer {
 .author-info {
     line-height: 0.9rem;
     font-size: 15px;
+    color:rgb(82, 81, 81);
 }
 
 .author span {
@@ -156,6 +154,17 @@ footer {
 
 .title-section {
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.print {
+    display: flex;
+    text-transform: uppercase;
+    color: darkgray;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }
 
 main {
@@ -195,4 +204,26 @@ h4 {
     background-image: url("../assets/hr-img.png");
     height: 15px;
     width: 100%;
+}
+
+button {
+    background-color: rgba(170, 51, 21, 0.719);
+    border: 0px;
+    color: white;
+    text-transform: uppercase;
+    width: 190px;
+    height: 60px;
+    /* font-weight: bold; */
+    font-size: large;
+    letter-spacing: -1px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.images-1, .images-2 {
+    letter-spacing: -3px;
 }
