@@ -4,10 +4,6 @@ body {
     padding: 20px 100px 20px 100px;
 }
 
-.top-bar {
-    /*margin-top: 20px;*/
-}
-
 header {
     display: flex;
     justify-content: space-between;
