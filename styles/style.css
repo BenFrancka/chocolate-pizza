@@ -71,14 +71,6 @@ ul {
     line-height: 2.3rem;
 }
 
-.left-list {
-    
-}
-
-.right-list {
-
-}
-
 li 
 { 
     list-style-image: url('http://bit.ly/qunMkL'); 
@@ -160,6 +152,17 @@ footer {
 
 .title-section {
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.print {
+    display: flex;
+    text-transform: uppercase;
+    color: darkgray;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }
 
 main {
@@ -211,4 +214,14 @@ button {
     /* font-weight: bold; */
     font-size: large;
     letter-spacing: -1px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+.images-1, .images-2 {
+    letter-spacing: -3px;
 }
